@@ -10,6 +10,7 @@ namespace ClassLibrary
 {
     public class Game
     {
+        /*62. http://www.min2win.ru/gm.php?id=1682 */
         public int Score { get; set; }
         public Cell[,] Place = new Cell[16, 16];
 
