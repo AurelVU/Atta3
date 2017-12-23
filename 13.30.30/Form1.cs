@@ -13,7 +13,7 @@ namespace _13._30._30
 {
     public partial class Form1 : Form
     {
-
+        /*62. http://www.min2win.ru/gm.php?id=1682 */
         enum Type
         {
             Game, Pause
