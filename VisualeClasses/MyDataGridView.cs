@@ -35,11 +35,13 @@ namespace VisualeClasses
         }
         public static DataGridView ClearDataGridView(DataGridView dataGrid)
         {
-            for (int i = 0; i < dataGrid.Columns.Count; i++)
+            for (int i = 0; 
+                i < dataGrid.Columns.Count; i++)
             {
                 dataGrid.Columns.Clear();
             }
-            for (int i = 0; i < dataGrid.Rows.Count; i++)
+            for (int i = 0; 
+                i < dataGrid.Rows.Count; i++)
             {
                 dataGrid.Rows.RemoveAt(i);
             }

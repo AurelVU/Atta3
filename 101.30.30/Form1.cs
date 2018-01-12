@@ -81,11 +81,13 @@ namespace _101._30._30
                 string name = openFileDialog1.FileName;
                 string File = _FileString.MyFileString.ReadF(name);
                 string[] arrstring = File.Split(new char[] { ' ', ',', '\n', '\r' }, StringSplitOptions.RemoveEmptyEntries);
+                Newbase = new Base();
                 for (int i = 0; i < arrstring.Length; i += 5)
                 {
                     Newbase.Add(new Room(arrstring[i], Convert.ToInt32(arrstring[i + 1]), Convert.ToDouble(arrstring[i + 2]), Convert.ToDouble(arrstring[i + 3]), Convert.ToDouble(arrstring[i + 4])));
                 }
-                dataGridView231 = VisualeClasses.MyDataGridView.ClearDataGridView(dataGridView231);
+                dataGridView231 = MyDataGridView.ClearDataGridView(dataGridView231);
+
                 dataGridView231.Columns.Add("Название района", "Название района");
                 dataGridView231.Columns.Add("Количество комнат", "Количество комнат");
                 dataGridView231.Columns.Add("Общая площадь", "Общая площадь");
