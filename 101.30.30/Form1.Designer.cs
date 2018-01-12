@@ -223,7 +223,7 @@
             this.Controls.Add(this.textBoxReadS);
             this.Controls.Add(this.textBoxReadN);
             this.Controls.Add(this.dataGridView231);
-            this.Name = "Form1";
+            //this.Name = "Form1";
             this.Text = "MyForm";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView231)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
